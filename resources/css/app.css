@@ -1,0 +1,169 @@
+/* Body and container setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F3F3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* General container setup */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and navigation */
+nav {
+    background-color: #6C4F97; /* Soft lavender */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav span {
+    color: #F1F1F1;
+}
+
+/* Auth Section */
+.auth-section {
+    background-color: #FFB6B9; /* Light coral */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.auth-section p {
+    font-size: 18px;
+}
+
+.btn-logout {
+    background-color: #6C4F97; /* Soft lavender */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color: #8E6CC3; /* Slightly darker lavender */
+}
+
+/* Task section */
+.task-section {
+    background-color: #D9E6F2; /* Light blue */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.task-section h2 {
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #6C4F97;
+}
+
+/* Button styling */
+.btn-submit {
+    background-color: #6C4F97;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #8E6CC3;
+}
+
+/* Task list section */
+.task-list {
+    background-color: #E0F7FA; /* Light cyan */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.task-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-list th, .task-list td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.task-list th {
+    background-color: #6C4F97;
+    color: white;
+}
+
+.task-list td a, .task-list td button {
+    background-color: #FFB6B9; /* Light coral */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list td a:hover, .task-list td button:hover {
+    background-color: #FF8C94; /* Darker coral */
+}
+
+/* Auth form */
+.auth-form {
+    background-color: #D9E6F2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+}
+
+.auth-form .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+}
+
+.auth-form .input-field:focus {
+    outline: none;
+    border-color: #6C4F97;
+}
+
+.auth-form button {
+    background-color: #6C4F97;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #8E6CC3;
+}

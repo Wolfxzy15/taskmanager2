@@ -1,0 +1,169 @@
+/* Body and container setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F0F0; /* Light gray */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* General container setup */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and navigation */
+nav {
+    background-color: #2F4F4F; /* Dark slate gray */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav span {
+    color: #F1F1F1;
+}
+
+/* Auth Section */
+.auth-section {
+    background-color: #E0E0E0; /* Light gray */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.auth-section p {
+    font-size: 18px;
+}
+
+.btn-logout {
+    background-color: #2F4F4F; /* Dark slate gray */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color: #4F6D6D; /* Slightly lighter gray */
+}
+
+/* Task section */
+.task-section {
+    background-color: #F5F5F5; /* Very light gray */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.task-section h2 {
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #B0B0B0; /* Light gray border */
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #2F4F4F; /* Dark slate gray */
+}
+
+/* Button styling */
+.btn-submit {
+    background-color: #2F4F4F; /* Dark slate gray */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #4F6D6D; /* Slightly lighter gray */
+}
+
+/* Task list section */
+.task-list {
+    background-color: #F5F5F5; /* Very light gray */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.task-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-list th, .task-list td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.task-list th {
+    background-color: #2F4F4F; /* Dark slate gray */
+    color: white;
+}
+
+.task-list td a, .task-list td button {
+    background-color: #4F6D6D; /* Lighter slate gray */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list td a:hover, .task-list td button:hover {
+    background-color: #6A8A8A; /* Even lighter slate gray */
+}
+
+/* Auth form */
+.auth-form {
+    background-color: #F5F5F5; /* Very light gray */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+}
+
+.auth-form .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #B0B0B0;
+}
+
+.auth-form .input-field:focus {
+    outline: none;
+    border-color: #2F4F4F; /* Dark slate gray */
+}
+
+.auth-form button {
+    background-color: #2F4F4F; /* Dark slate gray */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #4F6D6D; /* Slightly lighter gray */
+}
