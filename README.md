@@ -4,4 +4,4 @@ To run the code open terminal and type "php artisan serve"
 open a new terminal and type "npm run dev"
 
 DATABASE!!!
-I have included my database file
+I have included my database file on database folder named task_manager.sql
